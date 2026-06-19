@@ -51,11 +51,11 @@ boxes.forEach((box) => {
       box.disabled = true;
       playerTurn = false;
     }
-    computerFunc(box);
+    
     let winner = winnerAn();
     if (!winner) {
       tieAn();
-    }
+    }computerFunc(box);
     //  else{
     // if(turnO === false){
 
